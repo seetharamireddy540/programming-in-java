@@ -5,21 +5,20 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
+group 'com.ram'
+version '1.0-SNAPSHOT'
+
 allprojects {
     repositories {
         jcenter()
     }
 }
 subprojects {
-
-    version '1.0-SNAPSHOT'
-
     sourceCompatibility = 11
     targetCompatibility = 11
 }
 
 allprojects {
-
 
     repositories {
         jcenter()
