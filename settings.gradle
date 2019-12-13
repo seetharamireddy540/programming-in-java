@@ -1,0 +1,4 @@
+rootProject.name = 'programming-in-java'
+include 'design-patterns'
+include 'datastructures-and-algorithms'
+
