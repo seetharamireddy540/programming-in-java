@@ -1,7 +1,10 @@
 package com.ram.streams;
 
+import lombok.Builder;
+
 import java.util.Objects;
 
+@Builder
 public class Person {
     
     private String name;

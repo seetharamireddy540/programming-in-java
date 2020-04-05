@@ -1,10 +1,7 @@
 package com.ram.streams;
 
-import java.util.List;
 import java.util.function.Consumer;
-import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 public class StreamApp {
     
@@ -13,7 +10,6 @@ public class StreamApp {
         Predicate<Person> agePredicate = (person) -> person.getAge() > 10;
         Consumer<Person> ageConsumer = (person) -> System.out.println(person.getAge());
         Consumer<Person> namePrint = (person) -> System.out.println(person.getName());
-
 
 //        Predicate<Person> namePredicate = (person) -> person.getName().equalsIgnoreCase("Ram");
 //

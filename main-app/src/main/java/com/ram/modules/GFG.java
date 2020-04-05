@@ -4,14 +4,17 @@ package com.ram.modules;
 
 import io.vavr.control.Try;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 class GFG {
     // Driver code
     public static void main(String[] args) {
-        // Creating a list of Prime Numbers
+
+        List<List<Integer>> listOfList = new ArrayList<>();
+        listOfList.get(0).set(1,0);
+
+         // Creating a list of Prime Numbers
 //        List<Integer> PrimeNumbers = Arrays.asList(5, 7, 11, 13);
 //
 //        // Creating a list of Odd Numbers
