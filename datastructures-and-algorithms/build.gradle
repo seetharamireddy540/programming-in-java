@@ -17,6 +17,9 @@ repositories {
 
 dependencies {
 
+    compile 'info.picocli:picocli:4.2.0'
+    annotationProcessor 'info.picocli:picocli-codegen:4.2.0'
+
 // https://mvnrepository.com/artifact/com.google.inject/guice
     compile group: 'com.google.inject', name: 'guice', version: '4.2.2'
 

@@ -6,7 +6,5 @@ include 'java-classloaders'
 include 'utilities'
 include 'interfaces'
 include 'main-app'
-include 'api'
 include 'services'
-include 'shared'
 

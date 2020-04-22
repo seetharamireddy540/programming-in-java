@@ -16,9 +16,7 @@ java {
 }
 
 allprojects {
-
     apply plugin: 'checkstyle'
-
     repositories {
         jcenter()
         mavenLocal()
@@ -29,8 +27,6 @@ allprojects {
             url "https://maven.restlet.com"
         }
     }
-
-
 }
 
 dependencies {
